@@ -1,27 +1,31 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    background-color: #F5E8C7;
-
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f5e8c7;
 }
 
 .container {
-    width: 100%;
-    padding-left: 8%;
-    padding-right: 8%;
-    padding-top: 1%;
-    min-height: 100vh;
-    box-sizing: border-box;
-    align-items: flex-end;
+  width: 100%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 3%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
-    width: 600px;
+  width: 600px;
 }
 
-.main {
-    width: 600px;
-    padding-left: 5%;
-    display: flex;
+.logo-text {
+  width: 600px;
 }
+
+.machine {
+  width: 600px;
+}
+
+/* DEBA9D */
