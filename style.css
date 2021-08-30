@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: #D5EEBB;
+  background-color: #d5eebb;
 }
 
 .container {
@@ -63,7 +63,7 @@
   top: 0;
   right: 0;
   height: 100%;
-  background: #7FC8A9;
+  background: #7fc8a9;
   width: 60%;
   z-index: 0;
   border-top-left-radius: 50%;
@@ -72,4 +72,64 @@
 
 .text-box {
   height: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    width: 100%;
+    padding: 1%;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: inline;
+    justify-content: space-between;
+  }
+
+  .logo-text {
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    padding: 0;
+  }
+
+  .logo-text .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 0;
+  }
+
+  .logo-text h3 {
+    font-size: 100%;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .logo-text h2 {
+    font-style: italic;
+    text-align: right;
+    margin-top: 5px;
+    font-weight: lighter;
+    font-size: 95%;
+  }
+
+  .image-box {
+    position: relative;
+    flex-basis: 50%;
+    display: flexbox;
+    height: 100%;
+    flex-basis: 100%;
+    margin-top: 10%;
+  }
+
+  .image-box .machine {
+    width: 70%;
+    z-index: 1;
+    border: 0;
+    background: none;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    padding-left: 0;
+  }
 }
