@@ -23,13 +23,13 @@
 }
 
 .logo-text {
-  width: 700px;
+  width: 50%;
   justify-content: center;
   justify-items: center;
 }
 
 .logo-text h3 {
-  font-size: 23px;
+  font-size: 150%;
   font-weight: normal;
   text-align: center;
 }
@@ -39,7 +39,7 @@
   text-align: right;
   margin-top: 5px;
   font-weight: lighter;
-  font-size: 20px;
+  font-size: 125%;
 }
 
 .image-box {
